@@ -183,6 +183,7 @@ export class Render {
       return `<td rowspan=${rowspan}>${content || '-'}</td>`
     }
     propsRes.forEach((event: EventResult) => {
+      if (event.isSync) return ''
       const rowCodes = ['<tr>']
 
       const argumentsDesc = event.argumentsDesc || []
