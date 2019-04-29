@@ -7,10 +7,10 @@ import {
   SlotResult,
   MixInResult,
   ArgumentDelaration
-} from '@vuese/parser'
+} from '@umeng/vuese-parser'
 import * as path from 'path'
 import * as fs from 'fs'
-import { sfcToAST, AstResult, BabelParserPlugins } from '@vuese/parser'
+import { sfcToAST, AstResult, BabelParserPlugins } from '@umeng/vuese-parser'
 import * as bt from '@babel/types'
 
 function getAST(

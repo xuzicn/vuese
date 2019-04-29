@@ -5,6 +5,6 @@ module.exports = {
   testRegex: '(/__test__/.*|(\\.|/)(test|spec))\\.tsx?$',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   moduleNameMapper: {
-    '^@vuese/(.*?)$': '<rootDir>/packages/$1/lib'
+    '^@umeng/vuese-(.*?)$': '<rootDir>/packages/$1/lib'
   }
 }

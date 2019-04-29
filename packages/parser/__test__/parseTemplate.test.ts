@@ -6,7 +6,7 @@ import {
   AstResult,
   SlotResult,
   ParserOptions
-} from '@vuese/parser'
+} from '@umeng/vuese-parser'
 
 function getAST(fileName: string): object {
   const p = path.resolve(__dirname, `./__fixtures__/${fileName}`)

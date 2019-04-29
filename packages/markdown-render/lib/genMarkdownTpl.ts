@@ -1,4 +1,4 @@
-import { ParserResult } from '@vuese/parser'
+import { ParserResult } from '@umeng/vuese-parser'
 
 export default function(parserRes: ParserResult) {
   const desc = parserRes.componentDesc

@@ -21,8 +21,8 @@
     ],
     "rootDir": ".",
     "paths": {
-      "@vuese/parser": ["packages/parser/lib"],
-      "@vuese/markdown-render": ["packages/markdown-render/lib"]
+      "@umeng/vuese-parser": ["packages/parser/lib"],
+      "@umeng/vuese-markdown-render": ["packages/markdown-render/lib"]
     }
   },
   "include": [

@@ -6,7 +6,7 @@ import {
   EventResult,
   MethodResult,
   ComputedResult
-} from '@vuese/parser'
+} from '@umeng/vuese-parser'
 import renderMarkdown, { MarkdownResult } from './renderMarkdown'
 
 export { MarkdownResult }
